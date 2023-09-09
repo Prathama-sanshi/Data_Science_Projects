@@ -27,7 +27,7 @@
 
 ### Is accuracy is right performancd metrics for choosing a best algorithm?
 <p>
-  The answer is definately NO!!!....I will give you two concrete resons why this is not true in next few points.
+  The answer is definately NO!!!....I will give you a concrete resons why this is not true in next few points.
   Choosing a right metics is very important for machine learing algorithms, because if we choose a bad merics then at the time of deployment 
   we may not get desired results and may encounter sharp anomalies.
    Before computing the accuracy, we need to understand what each term in confusion matrix has to say 
@@ -41,7 +41,7 @@
   </ul>
 
   <ol> 
-    <li> <p>Here accuracy talks about how many times the model has correctly classified a patient given in our dataset with 
+    <p>Here accuracy talks about how many times the model has correctly classified a patient given in our dataset with 
     respective to the total number of patients.
       </p>
 Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
@@ -54,11 +54,11 @@ Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
         Lets just say that a given algorithm predicts almost 75%(147 patients) of positive class as positive and predicted all negative class incorrectly, then 
         we would have an accuracy= (147+0)/195  with is again 75%. It is very inappropriate to say that an algorithm is 75 percent accurate despit predicting all negative class incorrectly.
       </p>
-  </li>
+  
 
 
     
-  </ol>
+
 
 
 
