@@ -92,40 +92,9 @@ If false positive and false negative are both important then we select beta valu
      <p>Therefore, we conclude that the best performance matrics is $F_2$ score that will account precision and recall therby reducing false negative.</p>
 <hr>
 
-  ## 3.Algorithms Used:
-  <ol>
-<li>Logestic Regression</li>
-<li>Logestic Regression + Stratified Cross Validation</li>
-<li>Logestic Regression + PCA</li>
-<li>Logestic Regression + LDA</li>
-<li>Support Vector Machine + rbf(kernel)</li>
-<li>Support Vector Machine + poly(kernel with degree=5)</li>
-<li>Support Vector Machine + rbf(kernel)</li>
-<li>Support Vector Machine + poly(kernel) + Stratified Cross Validation</li>
-<li>Support Vector Machine + poly(kernel) + PCA</li>
-<li>Support Vector Machine + poly(kernel) + LDA</li>
-<li>Decision Tree +gini(kernel)</li>
-<li>Decision Tree +entropy(kernel)</li>
-<li>Decision Tree +entropy(kernel) + Stratified Cross Validation</li>
-<li>Decision Tree +entropy(kernel) + Adaboost</li>
-<li>Decision Tree +entropy(kernel) + PCA</li>
-<li>Decision Tree +entropy(kernel) + LDA</li>
-<li>Random Forest</li>
-<li>Random Forest + Adaboost</li>
-<li>Random Forest + Stratified Cross Validation</li>
-<li>Random Forest + PCA</li>
-<li>Random Forest + LDA</li>
-<li>KNN</li>
-<li>KNN + Stratified Cross Validation</li>
-<li>KNN + PCA</li>
-<li>KNN + LDA</li>
-<li>NB</li>
-<li>NB + Adaboost</li>
-<li>NB + Stratified Cross Validation</li>
-  </ol>
-  <hr>
   
-## 4.Keywords
+  
+## 3.Keywords
 <ol>
   <li>
     <b>Stratified cross-validation</b>: Stratified cross-validation is a variation of k-fold cross-validation, a common technique used in machine learning to assess the performance of a predictive model. Stratified cross-validation is particularly useful when dealing with classification problems where the distribution of classes in the dataset is imbalanced.
@@ -151,8 +120,8 @@ If false positive and false negative are both important then we select beta valu
 
 <hr>
 
-## 5.Results
-### 5.1 Logistic regression:
+## 4.Results
+### 4.1 Logistic regression:
 
 | Algorithm | $F_2$ score|
 | ------------- | ------------- |
@@ -161,7 +130,7 @@ If false positive and false negative are both important then we select beta valu
 | Logestic Regression + PCA |  0.4754  |
 | Logestic Regression + LDA |0.4754  |
 
-### 5.2 Support vector machine:
+### 4.2 Support vector machine:
 
 | Algorithm | $F_2$ score|
 | ------------- | ------------- |
@@ -171,7 +140,7 @@ If false positive and false negative are both important then we select beta valu
 |Support Vector Machine + poly(kernel) + PCA|  0.4754  |
 | Support Vector Machine + poly(kernel) + LDA |0.4754  |
 
-### 5.3 Decision Tree :
+### 4.3 Decision Tree :
 
 | Algorithm | $F_2$ score|
 | ------------- | ------------- |
@@ -183,7 +152,7 @@ If false positive and false negative are both important then we select beta valu
 |Decision Tree +entropy(kernel) + LDA|0.3879|
 
 
-### 5.4 Random Forest :
+### 4.4 Random Forest :
 
 | Algorithm | $F_2$ score|
 | ------------- | ------------- |
@@ -192,8 +161,28 @@ If false positive and false negative are both important then we select beta valu
 |Random Forest + Stratified Cross Validation |0.9684  |
 |Random Forest + PCA|  0.5115 |
 |Random Forest + LDA | 0.3722 |
-    
 
+
+### 4.5 Random Forest :
+
+| Algorithm | $F_2$ score|
+| ------------- | ------------- |
+|KNN| 0.7249 |
+|KNN + K-fold Cross Validation |0.8394  |
+|KNN + Stratified Cross Validation |0.8974  |
+|KNN + PCA|  0.5781 |
+|KNN + LDA | 0.4947 |
+    
+### 4.6 Naive Bayes  :
+
+| Algorithm | $F_2$ score|
+| ------------- | ------------- |
+|Naive Bayes |0.7167|
+|Naive Bayes  + K-fold Cross Validation | 0.7230 |
+|Naive Bayes  + Stratified Cross Validation |0.5016  |
+|Naive Bayes  + Adaboost|   0.5448 |
+
+    
 
 
 
