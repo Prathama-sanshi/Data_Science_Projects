@@ -184,6 +184,14 @@ If false positive and false negative are both important then we select beta valu
 
     
 ## 5.Conclusion : 
+After comparing all the results the most reliable algo is :
+<p>Decision Tree(entropy) + Adaboost Train accuracy
+   Train accuracy: 100%
+  Test Accuracy = 92.30% 
+  Recall for true(1) = 0.94
+  Recall for false(0) = 0.88
+   F2Beta Score : 89.76%
+</p>
 
   
 
