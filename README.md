@@ -1,5 +1,5 @@
 # Parkinsons_Disease_Analysis
-~Author : Pratham Sanshi
+~Author : Pratham Sanshi :hugs:
 ## 1.Introduction
 <p>
   Parkinson's disease (PD) is a complex and progressive neurological disorder that affects millions of people worldwide, 
@@ -128,31 +128,70 @@ If false positive and false negative are both important then we select beta valu
 ## 4.Keywords
 <ol>
   <li>
-    Stratified cross-validation: Stratified cross-validation is a variation of k-fold cross-validation, a common technique used in machine learning to assess the performance of a predictive model. Stratified cross-validation is particularly useful when dealing with classification problems where the distribution of classes in the dataset is imbalanced.
+    <b>Stratified cross-validation</b>: Stratified cross-validation is a variation of k-fold cross-validation, a common technique used in machine learning to assess the performance of a predictive model. Stratified cross-validation is particularly useful when dealing with classification problems where the distribution of classes in the dataset is imbalanced.
 </li>
   
   <li>
-    Kernels: Kernels are a powerful tool in machine learning because they enable the modeling of complex relationships in data without explicitly defining the transformation to a high-dimensional space. They are particularly useful when dealing with non-linear and complex decision boundaries. The choice of the appropriate kernel function depends on the problem and the characteristics of the data you're working with.In our case i have used multiple kernels to probe how results vary.
+    <b>Kernels</b>: Kernels are a powerful tool in machine learning because they enable the modeling of complex relationships in data without explicitly defining the transformation to a high-dimensional space. They are particularly useful when dealing with non-linear and complex decision boundaries. The choice of the appropriate kernel function depends on the problem and the characteristics of the data you're working with.In our case i have used multiple kernels to probe how results vary.
   </li>
   
   <li>
-    Adaboost: AdaBoost is particularly effective when dealing with complex datasets and when weak learners are carefully chosen and combined. It's known for its ability to focus on the data points that are difficult to classify, gradually improving the overall model's performance. 
+    <b>Adaboost</b>: AdaBoost is particularly effective when dealing with complex datasets and when weak learners are carefully chosen and combined. It's known for its ability to focus on the data points that are difficult to classify, gradually improving the overall model's performance. 
   </li>
   
   <li>
-    PCA: PCA is primarily used for unsupervised dimensionality reduction. Its main goal is to reduce the number of features (dimensions) in a dataset while retaining as much of the original variance as possible.I have used this to show how result affects when used with supervised learing setup.
+   <b>PCA</b>: PCA is primarily used for unsupervised dimensionality reduction. Its main goal is to reduce the number of features (dimensions) in a dataset while retaining as much of the original variance as possible.I have used this to show how result affects when used with supervised learing setup.
   </li>
   
   <li>
-    LDA: LDA is primarily used for supervised dimensionality reduction and classification. Its goal is to find linear combinations of features that maximize the separation between different classes or groups in the data.
+    <b>LDA</b>: LDA is primarily used for supervised dimensionality reduction and classification. Its goal is to find linear combinations of features that maximize the separation between different classes or groups in the data.
   </li>
   
 </ol>
 
 <hr>
 
-## 5.Conclusion
+## 5.Results
+### 5.1 Logistic regression:
 
+| Algorithm | $F_2$ score|
+| ------------- | ------------- |
+| Logestic Regression  | 0.7641  |
+|Logestic Regression + Stratified Cross Validation  |0.7873  |
+| Logestic Regression + PCA |  0.4754  |
+| Logestic Regression + LDA |0.4754  |
+
+### 5.2 Support vector machine:
+
+| Algorithm | $F_2$ score|
+| ------------- | ------------- |
+| Support Vector Machine + rbf(kernel) | 0.6116  |
+|Support Vector Machine + poly(kernel with degree=5)  |0.8283 |
+| Support Vector Machine + poly(kernel) + Stratified Cross Validation |0.6785  |
+|Support Vector Machine + poly(kernel) + PCA|  0.4754  |
+| Support Vector Machine + poly(kernel) + LDA |0.4754  |
+
+### 5.3 Decision Tree :
+
+| Algorithm | $F_2$ score|
+| ------------- | ------------- |
+| Decision Tree +gini(kernel) | 0.8976  |
+|Decision Tree +entropy(kernel) |0.8427 |
+| Decision Tree +entropy(kernel) + Stratified Cross Validation|0.9719  |
+|Decision Tree +entropy(kernel) + Adaboost|  0.8976  |
+| Decision Tree +entropy(kernel) + PCA | 0.5096 |
+|Decision Tree +entropy(kernel) + LDA|0.3879|
+
+
+### 5.4 Random Forest :
+
+| Algorithm | $F_2$ score|
+| ------------- | ------------- |
+|Random Forest| 0.8204 |
+|Random Forest + Adaboost |0.8066 |
+|Random Forest + Stratified Cross Validation |0.9684  |
+|Random Forest + PCA|  0.5115 |
+|Random Forest + LDA | 0.3722 |
     
 
 
