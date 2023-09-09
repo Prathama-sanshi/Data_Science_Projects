@@ -182,16 +182,22 @@ If false positive and false negative are both important then we select beta valu
 |Naive Bayes  + Stratified Cross Validation |0.5016  |
 |Naive Bayes  + Adaboost|   0.5448 |
 
-    
+  <hr>
+  
 ## 5.Conclusion : 
 After comparing all the results the most reliable algo is :
-<p>Decision Tree(entropy) + Adaboost Train accuracy
-   Train accuracy: 100%
-  Test Accuracy = 92.30% 
-  Recall for true(1) = 0.94
-  Recall for false(0) = 0.88
-   F2Beta Score : 89.76%
-</p>
+  <b> Decision Tree(entropy) + Adaboost</b>
+<ul>
+<b>
+   <li> Train accuracy: 100%</li>
+  <li> Test Accuracy = 92.30% </li>
+  <li> Recall for true(1) = 0.94</li>
+  <li> Recall for false(0) = 0.88</li>
+   <li> F2Beta Score : 89.76%</li>
+</b>
+</ul>
+
+
 
   
 
