@@ -25,7 +25,7 @@
   The parkinsons's dataset has 24 freatures and 195 rows which makes it a small sized and imbalanced dataset.The output is either true/positive or false/negative , which makes it binary classification problem.
 </p>
 
-### 2.1 Is accuracy is right performance metrics for choosing a best algorithm?
+### 2.1 Is accuracy a right performance metrics for choosing a best algorithm?
 <p>
   The answer is definately NO!!!....I will give you a concrete resons why this is not true in next few points.
   Choosing a right metics is very important for machine learing algorithms, because if we choose a bad merics then at the time of deployment 
