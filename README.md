@@ -32,7 +32,7 @@
   we may not get desired results and may encounter sharp anomalies.
    Before computing the accuracy, we need to understand what each term in confusion matrix has to say 
   about a given datset.
-   
+</p>
    <ul>
   <li>True Positive (TP): The patient is diseased and the model predicts "positive"</li>
   <li>False Positive (FP): The patient is healthy but the model predicts "positive"</li>
@@ -52,9 +52,21 @@ Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
       <p>
         We will take an example of our dataset which is an example of imbalaced data set. It has 147 positive class(75%) and 48 negative classes(25%). The total data points being 147+48 =195.
         Lets just say that a given algorithm predicts almost 75%(147 patients) of positive class as positive and predicted all negative class incorrectly, then 
-        we would have an accuracy= (147+0)/195  with is again 75%. It is very inappropriate to say that an algorithm is 75 percent accurate despit predicting all negative class incorrectly.
+        we would have an accuracy= (147+0)/195  with is again 75%. It is very inappropriate to say that an algorithm is 75 percent accurate despit predicting all negative class incorrectly.All in all we have to find a better metrics which brings us to precision and recall.
       </p>
+    <ol>
   
+  <li>Precision= TP / ( TP + FP )
+  <p>
+    Out of the total actual positive predicted results how many were actually positive.It is also called as positive prediction value.  
+  </p>
+</li> 
+ 
+   <li>Recall= TP / ( TP + FN )
+  <p>
+   Out of total actual positive values how many positive values did the model predict correctly.This is also known as true positive rate(TPR) / sensitivity.</li>  </p>
+  </ol>
+ 
 
 
     
@@ -65,7 +77,7 @@ Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
 
   
 
-</p>
+
   
 
 
