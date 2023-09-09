@@ -27,23 +27,47 @@
 
 ### Is accuracy is right performancd metrics for choosing a best algorithm?
 <p>
-  The answer is definately NO!!!....I will explain you why this is not true in next few sentences.
+  The answer is definately NO!!!....I will give you two concrete resons why this is not true in next few points.
   Choosing a right metics is very important for machine learing algorithms, because if we choose a bad merics then at the time of deployment 
   we may not get desired results and may encounter sharp anomalies.
-  Before computing the accuracy, we need to understand what each term in confusion matrix has to say 
+   Before computing the accuracy, we need to understand what each term in confusion matrix has to say 
   about a given datset.
-  <ul>
-<li>True Positive (TP): The patient is diseased and the model predicts "positive"</li>
-<li>False Positive (FP): The patient is healthy but the model predicts "positive"</li>
-<li>True Negative (TN): The patient is healthy and the model predicts "negative"</li>
-<li>False Negative (FN): The patient is diseased and the model predicts "negative"</li>
-</ul>
+   
+   <ul>
+  <li>True Positive (TP): The patient is diseased and the model predicts "positive"</li>
+  <li>False Positive (FP): The patient is healthy but the model predicts "positive"</li>
+  <li>True Negative (TN): The patient is healthy and the model predicts "negative"</li>
+  <li>False Negative (FN): The patient is diseased and the model predicts "negative"</li>
+  </ul>
 
-Acurracy= ( TP + TN ) / ( TP + FP + TN + FN )
-Here accuracy talks about how many times the model has correctly classified a patient given in our dataset with respective to the total number of patients.Also we have an imbalanced dataset (positive patients = 75 % and negative patients = 25%). Hence if we were to use accuracy out model will be biased to the dominating outcome , in this case it is positive, hence it is very delicate to use accuracy as a primary   metrics.
+  <ol> 
+    <li> <p>Here accuracy talks about how many times the model has correctly classified a patient given in our dataset with 
+    respective to the total number of patients.
+      </p>
+Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
+<p>
+  The given dataset is imbalanced having almost 75% of positive and remaining being negative.
+    Hence if we were to use accuracy as a metrics, our model will be biased to the most frequent outcome, in this case it is positive, 
+    therefore it is very delicate to use accuracy as a primary  metrics.</p>
+      <p>
+        We will take an example of our dataset which is an example of imbalaced data set. It has 147 positive class(75%) and 48 negative classes(25%). The total data points being 147+48 =195.
+        Lets just say that a given algorithm predicts almost 75%(147 patients) of positive class as positive and predicted all negative class incorrectly, then 
+        we would have an accuracy= (147+0)/195  with is again 75%. It is very inappropriate to say that an algorithm is 75 percent accurate despit predicting all negative class incorrectly.
+      </p>
+  </li>
+
+
+    
+  </ol>
+
+
+
 
   
+
 </p>
+  
+
 
 
 
