@@ -183,9 +183,7 @@ If false positive and false negative are both important then we select beta valu
 |Naive Bayes  + Adaboost|   0.5448 |
 
     
-
-
-
+## 5.Conclusion : 
 
   
 
