@@ -66,6 +66,13 @@ Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
   <p>
    Out of total actual positive values how many positive values did the model predict correctly.This is also known as true positive rate(TPR) / sensitivity.</li>  </p>
   </ol>
+  
+### Precision or Recall? Which is good metrics? 
+  <p>
+    The gole in parkinson's disease identification is to reduce a false negative(FN) value and ideally it should be zero. The algorithm cannot afford to say that a patient 
+    is healthy despit having actual disease. But it can afford a very slight errors in saying that a person has tested positive despite not having a disease. Hence we have 
+    to increase the value of recall which can be done by reducing false negative.
+  </p>
  
 
 
