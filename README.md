@@ -44,8 +44,10 @@
     <p>Here accuracy talks about how many times the model has correctly classified a patient given in our dataset with 
     respective to the total number of patients.
       </p>
-Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
+Accuracy= $\frac{( TP + TN )} {( TP + FP + TN + FN )}$
+    
 <p>
+  
  The provided dataset is imbalanced, with approximately 75% of its samples being positive and the remaining 25% being negative.
     Hence, if we were to use accuracy as a metrics, our model will be biased to the most frequent outcome, in this case it is positive, 
     therefore, it is very delicate to use accuracy as a primary  metrics.</p>
@@ -55,13 +57,14 @@ We will use an example from our dataset, which serves as an illustration of an i
         Suppose, for instance, that a given algorithm predicts almost 75% (147 patients) of the positive class as positive and incorrectly predicts all of the negative class. In this scenario, the accuracy would be (147 + 0) out of 195, resulting in an accuracy rate of 75% once again. It would be highly inappropriate to claim that an algorithm is 75% accurate when it predicts all instances of the negative class incorrectly. In such cases, it becomes essential to consider better metrics, such as precision and recall, to provide a more comprehensive assessment of its performance.
     <ol>
   
-  <li>Precision= TP / ( TP + FP )
+  <li> Precision = $\frac{TP} { ( TP + FP )}$
+    
   <p>
     It calculates how many of the predicted positive results were actually positive out of the total actual positive results.It is also called as positive prediction value.  
   </p>
 </li> 
  
-   <li>Recall= TP / ( TP + FN )
+   <li>Recall= $\frac{TP} { ( TP + FN )}$
   <p>
    It measures how many of the actual positive values the model correctly predicted out of the total actual positive values.This is also known as true positive rate(TPR) / sensitivity.</li>  </p>
   </ol>
