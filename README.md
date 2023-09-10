@@ -42,3 +42,118 @@
 <p>
   These are just a few examples of the many applications of data science. The versatility of data science techniques and tools makes them valuable in solving a wide range of complex problems and driving data-driven decision-making across various industries.
 </p>
+<hr>
+
+## Data Science Workflow
+
+<ol>
+<li>
+  Problem Definition:
+  <ol>
+    <li>Clearly define the problem you want to solve and establish the project's goals and objectives.</li>
+    <li>Understand the business context and the impact of solving the problem</li>
+  </ol>
+</li>
+
+<li>
+  Data Collection:
+  <ol>
+    <li>dentify relevant data sources and acquire the necessary data.</li>
+    <li>Ensure data is collected in a structured and organized manner.</li>
+      
+  </ol>
+</li>
+<li>Data Cleaning and Preprocessing:
+<ol>
+  <li>Handle missing values by imputation or removal.</li>
+  <ol>
+    <li>Replace missing values using the mean</li>
+  <li> Replace missing values using the median </li>
+    <li>Replace missing using the most frequent value (categorical data)</li>
+    <li>Replace missing values with fill_value(constant value)</li>
+  </ol>
+    
+  <li>Address outliers and anomalies.</li>
+  <ol>
+    <li>handling by dropping them</li>
+    <li>handling using boolean marking</li>
+    <li>Feature scaling</li>
+    <ol>
+      <li>Standardization</li>
+      <li>Min-max scaler / Normalization</li>
+    </ol>
+  </ol>
+  
+  <li>Transform and encode data, as needed.</li>
+  <ol>
+    <li>Label Encoding</li>
+    <li>one hot encoding</li>
+  </ol>
+ 
+</ol>
+  
+</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<ol>
+  <li>Visualize data to gain insights and detect patterns.</li>
+  <ol>
+    <li>Matplotlib</li>
+    <li>seaborn</li>
+  </ol>
+  <li>Compute summary statistics and correlations.</li>
+  <li>Identify potential relationships between variables.</li>
+</ol>
+<li>
+  Feature Engineering
+  <ol>
+    <li>Create new features or transform existing ones to improve model performance.</li>
+    <ol>
+      <li>Dimensionality Reduction (eg PCA /LDA)</li>
+      <li>Feature Combination</li>
+      <li>Feature Aggregation</li>
+      <li>Feature Transformation (eg: log transformation)</li>
+    </ol>
+    <li>Select relevant features using domain knowledge and techniques</li>
+    
+  </ol>
+</li>
+<li>Model Selection</li>
+<ol>
+  <li>Choose appropriate machine learning algorithms or modeling techniques.</li>
+  <ol>
+    <li>Regression Algorithms</li>
+    <li>Classification Algorithms:</li>
+    <li>Clustering Algorithms</li>
+    <li>Neural Networks and Deep Learning</li>
+    <li>Natural Language Processing (NLP) Algorithms</li>
+    <li>Ensemble Learning Algorithms:</li>
+  </ol>
+  <li>Split the data into training, validation, and test sets.</li>
+</ol>
+<li>Model Evaluation:</li>
+<ol>
+  <li>Assess model performance using appropriate evaluation metrics (e.g., accuracy, precision, recall, F1-score, ROC AUC etc).</li>
+  <li>Use cross-validation to ensure the model's robustness.</li>
+  <ol>
+    <li>K-Fold Cross-Validation</li>
+    <li>Stratified K-Fold Cross-Validation</li>
+    <li>Leave-One-Out Cross-Validation (LOOCV):</li>
+  </ol>
+</ol>
+<li>Model Interpretation</li>
+<ol>
+  <li>Understand the model's behavior and interpret the importance of features.</li>
+  <li>Identify factors driving model predictions.</li>
+</ol>
+<li>Model Deployment</li>
+<ol>
+  <li>Deploy the trained model into a production environment, if applicable.</li>
+  <li>Implement monitoring and maintenance procedures.</li>
+  <ol>
+    <li>AWS</li>
+    <li>Azure</li>
+    <li>Heroku</li>
+  </ol>
+</ol>
+<li></li>
+</ol>
