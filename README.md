@@ -163,3 +163,15 @@
 <p>
   The data science workflow is not always linear and may involve iteration and revisiting previous stages as new insights or challenges arise. Effective collaboration, domain knowledge, and communication skills are essential throughout the process.
 </p>
+<hr>
+
+## Disadvantages
+<ol>
+  <li>Data Quality Issues : Poor data quality, including missing values, errors, and inconsistencies, can significantly impact the accuracy  and modeling</li>
+  <li>Data Privacy and Security : Handling sensitive or personal data can lead to privacy concerns and legal issues</li>
+  <li>Data Bias and Fairness : Biased data can lead to biased models which makes it data centric.</li>
+  <li>Computational Resources : Running complex data science algorithms may require high-performance computing resources</li>
+  <li>Interpretability and Explainability : Many advanced machine learning and deep learning models are complex and difficult to interpret, making it challenging to explain their decisions.</li>
+  <li>Continuous Learning and Updates : The system requires constant updating for the changing technology and environment</li>
+</ol>
+<p>Despite these disadvantages and challenges, data science continues to be a valuable field with the potential to drive innovation, solve complex problems, and provide valuable insights when approached with diligence, ethics, and a focus on data quality and fairness.</p>
