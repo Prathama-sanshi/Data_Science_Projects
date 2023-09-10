@@ -155,5 +155,11 @@
     <li>Heroku</li>
   </ol>
 </ol>
-<li></li>
+<li>Communication and Reporting: Create visualizations and reports to convey insights effectively to stakeholders and provide recomendations based on analysis.</li>
+<li>Documentation : It involves documenting the entire data science process, including data sources, preprocessing steps, modeling techniques, and results</li>
+<li>Feedback Loop:Gather feedback from stakeholders and end-users and iterate on the model and analysis based on feedback and changing requirements</li>
+<li>Maintenance and Monitoring: Continuously monitor model performance and update in the production environment.</li>
 </ol>
+<p>
+  The data science workflow is not always linear and may involve iteration and revisiting previous stages as new insights or challenges arise. Effective collaboration, domain knowledge, and communication skills are essential throughout the process.
+</p>
