@@ -22,16 +22,16 @@
   This project involved the utilization of various algorithms for the analysis in <b>jupyter notebook</b> and <b>sklearn packages</b> for building model and calculating resultant matrix. 
 </p>
 <p>
-  The parkinsons's dataset has 24 freatures and 195 rows which makes it a small sized and imbalanced dataset.The output is either true/positive or false/negative , which makes it binary classification problem.
+  The parkinsons's dataset has 24 features and 195 rows which makes it a small-sized and imbalanced dataset. The output is either true/positive or false/negative, which makes it a binary classification problem.
 </p>
 
 ### 2.1 Is accuracy a right performance metrics for choosing a best algorithm?
 <p>
-  The answer is definately NO!!!....I will give you a concrete resons why this is not true in next few points.
-  Choosing a right metics is very important for machine learing algorithms, because if we choose a bad merics then at the time of deployment 
-  we may not get desired results and may encounter sharp anomalies.
-   Before computing the accuracy, we need to understand what each term in confusion matrix has to say 
-  about a given datset.
+  The answer is  NO!!!.... I will give you a concrete reason why this is not true in the next few points.
+  Choosing the right metrics is very important for machine learning algorithms, because if we choose a bad metric then, at the time of deployment 
+  we may not get the desired results and may encounter sharp anomalies.
+   Before computing the accuracy, we need to understand what each term in the confusion matrix has to say 
+  about a given dataset.
 </p>
    <ul>
   <li>True Positive (TP): The patient is diseased and the model predicts "positive"</li>
@@ -46,35 +46,32 @@
       </p>
 Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
 <p>
-  The given dataset is imbalanced having almost 75% of positive and remaining being negative.
-    Hence if we were to use accuracy as a metrics, our model will be biased to the most frequent outcome, in this case it is positive, 
-    therefore it is very delicate to use accuracy as a primary  metrics.</p>
+ The provided dataset is imbalanced, with approximately 75% of its samples being positive and the remaining 25% being negative.
+    Hence, if we were to use accuracy as a metrics, our model will be biased to the most frequent outcome, in this case it is positive, 
+    therefore, it is very delicate to use accuracy as a primary  metrics.</p>
       <p>
-        We will take an example of our dataset which is an example of imbalaced data set. It has 147 positive class(75%) and 48 negative classes(25%). The total data points being 147+48 =195.
-        Lets just say that a given algorithm predicts almost 75%(147 patients) of positive class as positive and predicted all negative class incorrectly, then 
-        we would have an accuracy= (147+0)/195  with is again 75%. It is very inappropriate to say that an algorithm is 75 percent accurate despit predicting all negative class incorrectly.All in all we have to find a better metrics which brings us to precision and recall.
-      </p>
+        
+We will use an example from our dataset, which serves as an illustration of an imbalanced dataset.. It has 147 positive class(75%) and 48 negative classes(25%). The total data points being 147+48 =195.
+        Suppose, for instance, that a given algorithm predicts almost 75% (147 patients) of the positive class as positive and incorrectly predicts all of the negative class. In this scenario, the accuracy would be (147 + 0) out of 195, resulting in an accuracy rate of 75% once again. It would be highly inappropriate to claim that an algorithm is 75% accurate when it predicts all instances of the negative class incorrectly. In such cases, it becomes essential to consider better metrics, such as precision and recall, to provide a more comprehensive assessment of its performance.
     <ol>
   
   <li>Precision= TP / ( TP + FP )
   <p>
-    Out of the total actual positive predicted results how many were actually positive.It is also called as positive prediction value.  
+    It calculates how many of the predicted positive results were actually positive out of the total actual positive results.It is also called as positive prediction value.  
   </p>
 </li> 
  
    <li>Recall= TP / ( TP + FN )
   <p>
-   Out of total actual positive values how many positive values did the model predict correctly.This is also known as true positive rate(TPR) / sensitivity.</li>  </p>
+   It measures how many of the actual positive values the model correctly predicted out of the total actual positive values.This is also known as true positive rate(TPR) / sensitivity.</li>  </p>
   </ol>
   
 ### 2.2 Precision or Recall? Which is good metrics? 
   <p>
-    The gole in parkinson's disease identification is to reduce a false negative(FN) value and ideally it should be zero. The algorithm cannot afford to say that a patient 
-    is healthy despit having actual disease. But it can afford a very slight errors in saying that a person has tested positive despite not having a disease. Hence we have 
-    to increase the value of recall which can be done by reducing false negative.
+   The algorithm must not declare a patient as healthy, even if they have an actual disease. However, it can tolerate very minor errors in falsely indicating a person as positive in a test despite not having the disease. Therefore, we need to enhance the recall value, which can be achieved by reducing false negatives.
   </p>
   <p>
-    Now that we know that we have to reduce false negative in our case hence we used one more term called Fbeta.
+    Now that we know that we have to reduce false negative in our case hence, we used one more term called Fbeta.
   </p>
   
  <p>
@@ -83,7 +80,7 @@ Accuracy= ( TP + TN ) / ( TP + FP + TN + FN )
    <p>
 If false positive and false negative are both important then we select beta value to one.
   if Beta=1 then this is called $F_1$ score. </p>
-<p>In our senario the false negative is very important that means we have to select beta value to be 2
+<p>In our senario, the false negative is very important that means we have to select beta value to be 2
    if Beta=2 then it is called $F_2$ score.
    Then,</p>
    <p>
