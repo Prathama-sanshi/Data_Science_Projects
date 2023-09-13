@@ -34,9 +34,62 @@
   <li>Label Encoding : Label encoding is a technique used in machine learning and data preprocessing to convert categorical data into numerical format. It assigns a unique numerical label to each distinct category, transforming the categorical data into numerical representation.</li>
   <li>OneHotEncoding : One-hot encoding is a technique used in machine learning and data preprocessing to convert categorical data into a binary (0 or 1) format, making it suitable for machine learning algorithms.The original categorical column is replaced with  binary columns. So, instead of having a single column with string values, you now have multiple binary columns representing each category.Unlike label encoding, one-hot encoding does not introduce any artificial order among categories.</li>
   <li>Standardization : Standardization helps bring all features to a common scale, making it easier for machine learning algorithms to work effectively, especially when the features have different scales or units.
-    Standardization(z) = $ \frac{Original_Value(x)-Mean of feature}{Standard Deviation of the feature}$
+   $Standardization(z) =  \frac{Original_Value(x)-Mean of feature} { Standard Deviation of the feature}$
     </li>
 </ol>
+
+## Results
+### Multiple Linear Regression
+|Algorithm  | Accuracy |
+| ------------- | ------------- |
+| Multiple Linear Regression |  0.7915 |
+|  Multiple Linear Regression + Cross Validation  |0.7582  |
+|  Multiple Linear Regression + mean of Loout cv|0.7583  |
+|  Multiple Linear Regression + PCA| 0.7916 |
+|  Multiple Linear Regression +LDA|0.7915 |
+
+
+### Polynomial Regression
+|Algorithm  | Accuracy |
+| ------------- | ------------- |
+| Polynomial Regression | 0.9167 |
+|  Polynomial Regression + Cross Validation  |0.8961  |
+| Polynomial Regression + mean of Loout cv|0.7632 |
+
+
+### Decision tree regressor
+
+|Algorithm  | Accuracy |
+| ------------- | ------------- |
+| Decision tree regressor |  0.9122 |
+|  Decision tree regressor + Cross Validation  |0.9143  |
+|  Decision tree regressor + mean of Loout cv|0.9179  |
+|  Decision tree regressor + PCA| 0.9218 |
+|  Decision tree regressor + Cross Validation + PCA  |0.9195  |
+|  Decision tree regressor + mean of Loout cv +  PCA|0.9139  |
+| Decision tree regressor +LDA|0.8945 |
+|  Decision tree regressor + Cross Validation + LDA  |0.9427  |
+|  Decision tree regressor + mean of Loout cv +  LDA|0.9450  |
+
+
+### Random Forest
+|Algorithm  | Accuracy |
+| ------------- | ------------- |
+| Random Forest |  0.9601 |
+| Random Forest + Cross Validation  |0.9358  |
+|  Random Forest + mean of Loout cv|0.9471  |
+|  Random Forest + PCA|0.9471 |
+|  Random Forest +LDA|0.9581|
+
+### KNN
+|Algorithm  | Accuracy |
+| ------------- | ------------- |
+| KNN |  0.9496 |
+| KNN + Cross Validation  |0.9157 |
+|  KNN+ mean of Loout cv|0.9220  |
+|  Random Forest + PCA| 0.9495 |
+|  Random Forest +LDA|0.9496|
+
 
 
 
