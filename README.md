@@ -1,4 +1,5 @@
 # Data Science
+~Author :- Pratham Sanshi 🤗
 ## Introduction
 <b>Data science</b> is a multidisciplinary field that combines techniques from various domains, including statistics, computer science, and domain expertise, to extract valuable insights and knowledge from data. It encompasses a wide range of activities related to data collection, cleaning, analysis, visualization, and interpretation. Data science plays a crucial role in making data-driven decisions, solving complex problems, and predicting future trends
 
