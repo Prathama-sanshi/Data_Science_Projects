@@ -119,7 +119,7 @@
 </li>
 <li><b>Model Selection</b></li>
 <ol>
-  <li>Choose appropriate machine learning algorithms or modeling techniques.</li>
+  <li>Experiment with different algorithms to find the best-performing one(s).</li>
   <ol>
     <li>Regression Algorithms</li>
     <li>Classification Algorithms:</li>
@@ -129,6 +129,11 @@
     <li>Ensemble Learning Algorithms:</li>
   </ol>
   <li>Split the data into training, validation, and test sets.</li>
+</ol>
+<li><b>Model Training</b></li>
+<ol>
+  <li>Train the selected model(s) using the training dataset.</li>
+  <li>Fine-tune model hyperparameters using techniques like cross-validation.</li>
 </ol>
 <li><b>Model Evaluation</b></li>
 <ol>
