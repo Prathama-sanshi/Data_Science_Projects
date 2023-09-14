@@ -44,6 +44,13 @@
 </p>
 <hr>
 
+## Data Science Workflow Diagram
+
+
+![Blank diagram](https://github.com/Prathama-sanshi/Data_Science_Projects/assets/59955378/85d62395-b30c-417a-8787-2eb7a0ee220f)
+
+<hr>
+
 ## Data Science Workflow
 
 <ol>
