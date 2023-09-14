@@ -55,7 +55,9 @@
 
 <ol>
 <li>
- <b> Problem Definition</b>
+  
+ ### Problem Definition
+ 
   <ol>
     <li>Clearly define the problem you want to solve and establish the project's goals and objectives.</li>
     <li>Understand the business context and the impact of solving the problem</li>
@@ -63,14 +65,18 @@
 </li>
 
 <li>
- <b> Data Collection</b>
+  
+  ### Data Collection
   <ol>
     <li>dentify relevant data sources and acquire the necessary data.</li>
     <li>Ensure data is collected in a structured and organized manner.</li>
       
   </ol>
 </li>
-<li><b>Data Cleaning and Preprocessing</b>
+
+<li>
+  
+  ### Data Cleaning and Preprocessing
 <ol>
   <li>Handle missing values by imputation or removal.</li>
   <ol>
@@ -100,7 +106,10 @@
 </ol>
   
 </li>
-<li><b>Exploratory Data Analysis (EDA)</b></li>
+<li>
+  
+  ### Exploratory Data Analysis (EDA) 
+</li>
 <ol>
   <li>Visualize data to gain insights and detect patterns.</li>
   <ol>
@@ -111,7 +120,8 @@
   <li>Identify potential relationships between variables.</li>
 </ol>
 <li>
- <b> Feature Engineering</b>
+  
+ ### Feature Engineering
   <ol>
     <li>Create new features or transform existing ones to improve model performance.</li>
     <ol>
@@ -124,7 +134,9 @@
     
   </ol>
 </li>
-<li><b>Model Selection</b></li>
+<li>
+  
+  ### Model Selection </li>
 <ol>
   <li>Experiment with different algorithms to find the best-performing one(s).</li>
   <ol>
@@ -137,12 +149,16 @@
   </ol>
   <li>Split the data into training, validation, and test sets.</li>
 </ol>
-<li><b>Model Training</b></li>
+<li>
+  
+  ### Model Training </li>
 <ol>
   <li>Train the selected model(s) using the training dataset.</li>
   <li>Fine-tune model hyperparameters using techniques like cross-validation.</li>
 </ol>
-<li><b>Model Evaluation</b></li>
+<li>
+  
+  ### Model Evaluation </li>
 <ol>
   <li>Assess model performance using appropriate evaluation metrics (e.g., accuracy, precision, recall, F1-score, ROC AUC etc).</li>
   <li>Use cross-validation to ensure the model's robustness.</li>
@@ -152,12 +168,16 @@
     <li>Leave-One-Out Cross-Validation (LOOCV):</li>
   </ol>
 </ol>
-<li><b>Model Interpretation</b></li>
+<li>
+  
+  ### Model Interpretation </li>
 <ol>
   <li>Understand the model's behavior and interpret the importance of features.</li>
   <li>Identify factors driving model predictions.</li>
 </ol>
-<li><b>Model Deployment</b></li>
+<li>
+  
+  ### Model Deployment</li>
 <ol>
   <li>Deploy the trained model into a production environment, if applicable.</li>
   <li>Implement monitoring and maintenance procedures.</li>
@@ -167,10 +187,22 @@
     <li>Heroku</li>
   </ol>
 </ol>
-<li><b>Communication and Reporting</b> : Create visualizations and reports to convey insights effectively to stakeholders and provide recomendations based on analysis.</li>
-<li><b>Documentation</b> : It involves documenting the entire data science process, including data sources, preprocessing steps, modeling techniques, and results</li>
-<li><b>Feedback Loop</b> : Gather feedback from stakeholders and end-users and iterate on the model and analysis based on feedback and changing requirements</li>
-<li><b>Maintenance and Monitoring </b> : Continuously monitor model performance and update in the production environment.</li>
+<li>
+  
+  ### Communication and Reporting : 
+  Create visualizations and reports to convey insights effectively to stakeholders and provide recomendations based on analysis.</li>
+<li>
+  
+  ### Documentation :
+  It involves documenting the entire data science process, including data sources, preprocessing steps, modeling techniques, and results</li>
+<li>
+  
+  ### Feedback Loop : 
+  Gather feedback from stakeholders and end-users and iterate on the model and analysis based on feedback and changing requirements</li>
+<li>
+  
+  ### Maintenance and Monitoring : 
+  Continuously monitor model performance and update in the production environment.</li>
 </ol>
 <p>
   The data science workflow is not always linear and may involve iteration and revisiting previous stages as new insights or challenges arise. Effective collaboration, domain knowledge, and communication skills are essential throughout the process.
