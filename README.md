@@ -1,9 +1,9 @@
-# Data Science
+# 1.Data Science
 ~Author :- Pratham Sanshi 🤗
 ## Introduction
 <b>Data science</b> is a multidisciplinary field that combines techniques from various domains, including statistics, computer science, and domain expertise, to extract valuable insights and knowledge from data. It encompasses a wide range of activities related to data collection, cleaning, analysis, visualization, and interpretation. Data science plays a crucial role in making data-driven decisions, solving complex problems, and predicting future trends
 
-## Application:
+## 2.Application:
 <ol>
   <li>
     <b>E-commerce</b>
@@ -45,14 +45,14 @@
 </p>
 <hr>
 
-## Data Science Workflow Diagram
+## 3.Data Science Workflow Diagram
 
 
 ![Blank diagram](https://github.com/Prathama-sanshi/Data_Science_Projects/assets/59955378/85d62395-b30c-417a-8787-2eb7a0ee220f)
 
 <hr>
 
-## Data Science Workflow
+## 4.Data Science Workflow
 
 <ol>
 <li>
@@ -210,7 +210,7 @@
 </p>
 <hr>
 
-## Disadvantages
+## 5.Disadvantages
 <ol>
   <li><b>Data Quality Issues</b> : Poor data quality, including missing values, errors, and inconsistencies, can significantly impact the accuracy  and modeling</li>
   <li><b>Data Privacy and Security</b> : Handling sensitive or personal data can lead to privacy concerns and legal issues</li>
