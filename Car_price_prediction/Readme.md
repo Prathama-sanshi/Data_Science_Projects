@@ -1,5 +1,5 @@
 # Car Price Prediction
-
+~Author :- Pratham Sanshi 🤗
 ## Introduction 
 <p>
   Predicting car prices is a crucial task in the automotive industry, helping buyers and sellers make informed decisions in a rapidly changing market. Whether you're a car enthusiast, a dealership owner, or a data science enthusiast, this project aims to provide you with the tools and insights to predict car prices accurately.
