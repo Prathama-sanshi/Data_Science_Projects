@@ -142,7 +142,7 @@
   <li>Experiment with different algorithms to find the best-performing one(s).</li>
   <ol>
     <li>Regression Algorithms</li>
-    <li>Classification Algorithms:</li>
+    <li>Classification Algorithms</li>
     <li>Clustering Algorithms</li>
     <li>Neural Networks and Deep Learning</li>
     <li>Natural Language Processing (NLP) Algorithms</li>
@@ -166,7 +166,7 @@
   <ol>
     <li>K-Fold Cross-Validation</li>
     <li>Stratified K-Fold Cross-Validation</li>
-    <li>Leave-One-Out Cross-Validation (LOOCV):</li>
+    <li>Leave-One-Out Cross-Validation (LOOCV)</li>
   </ol>
 </ol>
 <li>
