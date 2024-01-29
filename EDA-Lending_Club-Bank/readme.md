@@ -86,3 +86,14 @@ Types of Univariate Analysis:-
   <li><b>Statistics or Numeric Features</b>: Continuous or discrete values like height ,temperature ,age or weight.</li>
 </ol>
 
+### 3.Bivariate Analysis
+<p>Here analysis is carried out by observing two variables.</p>
+Types of bivariate analysis
+<ol>
+  <li>Analysis between numeric and categorical variables </li>
+  <li>Analysis between two categorical variables</li>
+  <li>Analysis between two numeric vairables</li>
+</ol>
+
+### 4.Multivariate Analysis:
+<p>It involves gathering more then two variables and drawing conclusions.It makes use of pivot tables or correlation matrix</p>
