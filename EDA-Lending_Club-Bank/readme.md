@@ -12,7 +12,7 @@ EDA uses data  visulisation techniques to draw inferences and obtain insights fr
   <li>Test underlying assumptions (eg:sales increases with discounts) </li>
 </ol>
 
-### Data Cleaning
+### 1.Data Cleaning
 <ul>
   <li><b>Identifying the data type</b></li>
   <ol>
@@ -30,34 +30,59 @@ EDA uses data  visulisation techniques to draw inferences and obtain insights fr
   </ol>
   <li><b>Imputing removing missing values</b></li>
   <ol>
-    <li>Remove columns that has more then 20 percent null values or outliers</li>
-    <li>imputing centeral tendencies or synthetic values</li>
+  <li>set values as missing values (eg treat with 'XX' or NULL</li>
+  <li>Fill missing values with function value , constant or central tendency</li>
+  <li>Remove missing values by deleting rows or columns depending on volume of missing data</li>
+  <li>imputing done using logistic regression or ML techniques</li>
   </ol>
   <li><b>Handling outliers</b></li>
   <ol>
-    <li>remove the whole row that has outliers</li>
-    <li>replace the outliers with central tendency</li>
+    <li>imputation of outliers</li>
+    <li>delete outliers</li>
+    <li>binning the values</li>
+    <li>cap the outliers</li>
   </ol>
   <li><b>Standardising the values</b></li>
-  <lo>
-    <li>Transform the data in consistent form</li>
-    <li>Convert all column into single unit format</li>
-  </lo>
+    <ol>
+     <li>Transform the data in consistent form by scaling or truncating</li>
+     <li>Convert all column into single unit format </li>
+      <li>Standardise precision</li>
+      <li>Standardise case</li>
+    </ol>
+  
   <li><b>Fixing invalid values</b></li>
   <ol>
-    <li>Fixing invalid values with NULL or NA</li>
-    <li>remove rows that has invalid values</li>
+    <li>Convert string to num or vice-versa according to dataset</li>
+    <li>Amend the values that are beyond logical range</li>
+    <li>Validate general or logical rules(eg: phone num should have 10 digits )</li>
   </ol>
+  
   <li><b>Filtering the data</b></li>
   <ol>
     <li>Removing the columns that are not necessary in analysis(eg: id)</li>
-    <li>Selecting columns that potential information in deciding the output</li>
+    <li>Delete duplicate values and aggregate data</li>
+    <li>Selecting columns that has potential information in deciding the output</li>
     
   </ol>
 </ul>
 
-### Fix Missing Values
-##### Types of missing values:
+##### NOTE:
+##### 1.The above given steps are carried out in any order and may or may not apply to all datasets.
+##### 2.Types of missing values:
 <ol>
-  <li></li>
+  <li>MCAR : (Missing Completely At Random)Does not depend on any feature column </li>
+  <li>MAR: (Missing At Random) There could be some depending factor</li>
+  <li>MNAR:(Missing Not At Random) Missing for very specific reason</li>
 </ol>
+
+### 2.Univariate Analysis:
+<p>Univariate analysis involves Analysing / Visualising a single variable by handling missing/outliers. </p>
+Types of Univariate Analysis:-
+<ol>
+   
+  <li><b>Categorical unordered univariate analysis</b>: 
+  This analysis does not have any meadurable terms , such as high-low , more-less or fail-pass etc. Eg: The type ob loan taken by individual (home loan or personal loan or business loan)
+  <li><b>Categorical ordered univariate analysis : </b> The variables that follow a natural rank of order. Eg: Age group(<50,>50) , month, education(primary or secondary)</li>
+  <li><b>Statistics or Numeric Features</b>: Continuous or discrete values like height ,temperature ,age or weight.</li>
+</ol>
+
